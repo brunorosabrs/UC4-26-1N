@@ -1,6 +1,0 @@
-import { Spacecraft } from "../ships/Spacecraft";
-
-export interface Exploratory {
-    explore(location: string): string;
-    collectData(): string;
-}
